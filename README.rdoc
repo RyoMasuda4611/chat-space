@@ -1,7 +1,7 @@
 ## テーブル
 # usersテーブル
   - username :string
-  - group_id :integer
+  - group_id :references  foreign_key true
 
 # groupsテーブル
   - name :string
@@ -11,8 +11,8 @@
   - image :text
 
 # user_groupsテーブル
-  - user_id :integer
-  - group_id :integer
+  - user_id :references  foreign_key true
+  - group_id :references  foreign_key true
 
 
 ## アソシエーション
