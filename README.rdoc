@@ -1,18 +1,18 @@
 ## テーブル
 # usersテーブル
-  -username :string
-  -group_id :integer
+  - username :string
+  - group_id :integer
 
 # groupsテーブル
-  -name :string
+  - name :string
 
 # tweetsテーブル
-  -tweet :text
-  -image :text
+  - tweet :text
+  - image :text
 
 # user_groupsテーブル
-  -user_id :integer
-  -group_id :integer
+  - user_id :integer
+  - group_id :integer
 
 
 ## アソシエーション
