@@ -26,6 +26,3 @@
 
 # groups
 - has_many users through: :user_groups
-
-
-
