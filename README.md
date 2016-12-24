@@ -1,7 +1,7 @@
 ## テーブル
 # usersテーブル
-  - username :string
-  - group_id :references  foreign_key true
+  - username :string, index: true
+  - group_id :references, foreign_key: true
 
 # groupsテーブル
   - name :string
