@@ -18,7 +18,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.0]
       t.datetime :last_sign_in_at
       t.string   :current_sign_in_ip
       t.string   :last_sign_in_ip
-      t.string   :nickname
+      t.string   :name
       t.references :group, index: true, foreign_key: true
 
       ## Confirmable
