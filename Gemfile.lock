@@ -59,6 +59,8 @@ GEM
       railties (>= 4.1.0, < 5.1)
       responders
       warden (~> 1.2.3)
+    erb2haml (0.1.5)
+      html2haml
     erubis (2.7.0)
     execjs (2.7.0)
     globalid (0.3.7)
@@ -181,7 +183,9 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   devise
+  erb2haml
   haml-rails
+  html2haml
   jbuilder (~> 2.0)
   jquery-rails
   mysql2 (>= 0.3.13, < 0.5)
