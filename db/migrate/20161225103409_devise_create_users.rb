@@ -19,7 +19,6 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.0]
       t.string   :current_sign_in_ip
       t.string   :last_sign_in_ip
       t.string   :name
-      t.references :group, index: true, foreign_key: true
 
       ## Confirmable
       # t.string   :confirmation_token
